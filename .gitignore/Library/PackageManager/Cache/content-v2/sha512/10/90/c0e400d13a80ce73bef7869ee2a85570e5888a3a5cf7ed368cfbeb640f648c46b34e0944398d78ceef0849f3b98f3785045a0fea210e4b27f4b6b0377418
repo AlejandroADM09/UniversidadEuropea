@@ -1,0 +1,1 @@
+{"status":"Valid","reason":"Signature is ok","isLegacy":false,"attestation":{"version":1,"format":"archive","integrity":"sha256-XJm0HpXlr310nF34XRH8BYa6uZXKAnAxOw86CJdiw7o=","packageName":"com.unity.scriptablebuildpipeline","packageVersion":"3.0.3","publishingChannel":"unity","entitlementKeys":[],"artifactType":"upmPackage"}}

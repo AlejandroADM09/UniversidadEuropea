@@ -1,0 +1,405 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26" at "2026-11-09T17:05:16.3664549Z"
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-09T17:05:16Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27996, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              ec6176b581334aa59d34337a797c58df
+  Correlation Id:          7e08e1c33d91199d788b6e611b07070c
+  External correlation Id: 4952434123942382307
+  Machine Id:              ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-amc26" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26-notifications" at "2026-11-09T17:05:16.39777Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/amc26/Jenga
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+61346
+-parentPid
+35344
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+8ef8dc00-0e5a-4148-9fe5-300035b8db2c
+-analyticsLocalProjectId
+8651b1c30b0a765438022736a339a570
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+7b11fd68d7eb0e6de8a68beb9d2638c55741abfe
+-cbmMachineId
+ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+-licensingIpc
+LicenseClient-amc26
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/amc26/Jenga
+C:/Users/amc26/Jenga
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [7532]  Target information:
+
+Player connection [7532]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2356500264 [EditorId] 2356500264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7532]  * "[IP] 172.29.112.1 [Port] 0 [Flags] 2 [Guid] 2356500264 [EditorId] 2356500264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7532]  * "[IP] 192.168.0.37 [Port] 0 [Flags] 2 [Guid] 2356500264 [EditorId] 2356500264 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7532] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7532] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: b7ee7cbef98002eece8141ec555bb866
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 3.10 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amc26/Jenga/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:          NVIDIA
+    VRAM:            8006 MB
+    App VRAM Budget: 7238 MB
+    Driver:          32.0.15.6603
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002875 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 1235ms
+	BeginReloadAssembly (193ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (188ms)
+		TypeCache.Refresh (276ms)
+			TypeCache.ScanAssembly (260ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (531ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (202ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872852281530-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+TypeManager.Initialize took: 132ms
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.424 seconds
+Domain Reload Profiling: 2549ms
+	BeginReloadAssembly (259ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (761ms)
+		LoadAssemblies (411ms)
+		TypeCache.Refresh (189ms)
+			TypeCache.ScanAssembly (171ms)
+		AnalyzeDomain (78ms)
+			BuildScriptInfoCaches (74ms)
+	FinalizeReload (1425ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (594ms)
+			ProcessInitializeOnLoadMethodAttributes (368ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6386 unused Assets / (10.4 MB). Loaded Objects now: 7238.
+Memory consumption went from 371.6 MB to 361.2 MB.
+Total: 15.175500 ms (FindLiveObjects: 1.409600 ms CreateObjectMapping: 0.971500 ms MarkObjects: 9.163200 ms  DeleteObjects: 3.370800 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:10:29.8783294Z
+  Time since last request: 4266083.86963650025427 seconds.
+  importAddress: GUID: a7a5a2c3369b1384182ce3a57de2fbed - Path: Assets/Materials/yellow_mat.mat - Importer: PreviewImporter
+Importing 'GUID: a7a5a2c3369b1384182ce3a57de2fbed - Path: Assets/Materials/yellow_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7a5a2c3369b1384182ce3a57de2fbed' -> (Import Result ID: 'e2502d6a927df8ced5ee7ff93550e99e') in 0.578 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=901e09d0f21b9ac8a708ce2aa80e8132 DependenciesID=bd4a8437de5f84a13f09582cb36d25ef StaticDependenciesID=1832c80cc28726770cef93f2b882126a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:10:30.4767882Z
+  Time since last request: 0.0000205 seconds.
+  importAddress: GUID: bd9d6f7bffdaa3440b6f685b2474a217 - Path: Assets/Materials/table_wood.mat - Importer: PreviewImporter
+Importing 'GUID: bd9d6f7bffdaa3440b6f685b2474a217 - Path: Assets/Materials/table_wood.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bd9d6f7bffdaa3440b6f685b2474a217' -> (Import Result ID: 'b5ed3a0ad24ef7b7198d33868838e289') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e42709eeda3ad335457fdff0a3f9b14e DependenciesID=512e7e995ab5c170a5106695d5a1573a StaticDependenciesID=835f0402ebe065d817c0d91c29fd6f20 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:10:30.5022325Z
+  Time since last request: 0.0007595 seconds.
+  importAddress: GUID: 9a8269098574c3d4792ae60549c17c1c - Path: Assets/Materials/red_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 9a8269098574c3d4792ae60549c17c1c - Path: Assets/Materials/red_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9a8269098574c3d4792ae60549c17c1c' -> (Import Result ID: 'c6425baebc7a1d7a54f548112e4d415b') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27b211a168ea799f9cb81d43b8d80383 DependenciesID=8e5c9b6ff43194f582d8dc849eb3e845 StaticDependenciesID=b2004a5171f60a55a499aa292d0082f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:10:30.5321739Z
+  Time since last request: 0.0009708 seconds.
+  importAddress: GUID: 7fac31b474df3b54e8cf456988a9364e - Path: Assets/Materials/blue_mat.mat - Importer: PreviewImporter
+Importing 'GUID: 7fac31b474df3b54e8cf456988a9364e - Path: Assets/Materials/blue_mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7fac31b474df3b54e8cf456988a9364e' -> (Import Result ID: '494be7a46c8fc2460687b3447a850901') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40ba6671c7e5655ea4025fc279d5c642 DependenciesID=4a8ba48aa4978361b4fc5f9dc37fa198 StaticDependenciesID=ee04c3d4deea8943b9359fc4e05c348b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7395.
+Memory consumption went from 381.9 MB to 375.9 MB.
+Total: 12.071100 ms (FindLiveObjects: 0.788000 ms CreateObjectMapping: 0.258100 ms MarkObjects: 9.028500 ms  DeleteObjects: 1.730900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:12:51.1046972Z
+  Time since last request: 140.54005230000001 seconds.
+  importAddress: GUID: 0acdd5014fadf2c40ae14500a925c59d - Path: Assets/Materials/table_wood_yellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0acdd5014fadf2c40ae14500a925c59d - Path: Assets/Materials/table_wood_yellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0acdd5014fadf2c40ae14500a925c59d' -> (Import Result ID: 'aff9ba8b3316d08e0c4614eb8c4035ce') in 0.082 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e91888846f917143324fa83e5e2000d DependenciesID=00e239facf4617b9db84d3244f3877ae StaticDependenciesID=028b579bfa98ad290a27f3911810d55d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:13:09.001077Z
+  Time since last request: 17.8017949 seconds.
+  importAddress: GUID: 029590fe2d11e7f49b8273d3fc1f2510 - Path: Assets/Materials/table_wood_red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 029590fe2d11e7f49b8273d3fc1f2510 - Path: Assets/Materials/table_wood_red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 029590fe2d11e7f49b8273d3fc1f2510' -> (Import Result ID: 'ce2521fd090c6e57c072524626e0d4b0') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee48b4fe52f05ec84c3beaea71a9c91e DependenciesID=75adaf210419ad4e92b05b6ce4059ff1 StaticDependenciesID=12e9a855ce007dd61e4748d071cfbd2b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:13:22.0794388Z
+  Time since last request: 13.0634843 seconds.
+  importAddress: GUID: 3d8d699731d8cc648a718fc02a35c65a - Path: Assets/Materials/table_wood_blue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d8d699731d8cc648a718fc02a35c65a - Path: Assets/Materials/table_wood_blue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d8d699731d8cc648a718fc02a35c65a' -> (Import Result ID: 'e9dd42b4d6c5dfa0190bec30624be1cf') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=972c7fb2b4366efcba1a05ea03e2796a DependenciesID=5d8ef93ee92f9bfb6dafb69549814d07 StaticDependenciesID=1a4bf8f96a5cecfae42e683afe3dea24 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:06.9078737Z
+  Time since last request: 584.81513140000004 seconds.
+  importAddress: GUID: b9ae429aca254fa41966db24b9e53232 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/BackgroundMesh.fbx - Importer: PreviewImporter
+Importing 'GUID: b9ae429aca254fa41966db24b9e53232 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/BackgroundMesh.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b9ae429aca254fa41966db24b9e53232' -> (Import Result ID: 'c65981ff4ef212ac950c9e49bde2464e') in 0.143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a513bdb8b58da1ba27b4fac09ec10fef DependenciesID=319e870f73e41722ee8740711c5f492d StaticDependenciesID=7cbd674e21709f5d0508983909742de4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.0642582Z
+  Time since last request: 0.0000323 seconds.
+  importAddress: GUID: b28fa67a0ff82c5478f27368dc627683 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFixture.fbx - Importer: PreviewImporter
+Importing 'GUID: b28fa67a0ff82c5478f27368dc627683 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFixture.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b28fa67a0ff82c5478f27368dc627683' -> (Import Result ID: 'f9072a70e0f42fa55c087f209521a0a0') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=faad5a9f4514afcb2378b5fbd120c3c7 DependenciesID=5dff186a1add9d0f6aed4efb439d1bce StaticDependenciesID=1e5ab7c4d2fd20c442e2695e656ef0ed 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.1203347Z
+  Time since last request: 0.0009622 seconds.
+  importAddress: GUID: 7d3bef85fe093454186f2a061b3a13df - Path: Packages/com.unity.entities/Unity.Scenes.Editor.Tests/Assets/Smoke.fbx - Importer: PreviewImporter
+Importing 'GUID: 7d3bef85fe093454186f2a061b3a13df - Path: Packages/com.unity.entities/Unity.Scenes.Editor.Tests/Assets/Smoke.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7d3bef85fe093454186f2a061b3a13df' -> (Import Result ID: '2a7b668ffe8aff7b0b58a8f14289ba48') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4035c4a1a82f862a7c0b99926d637ad8 DependenciesID=0d52e7e5c2c2a9a04e04f950c476a5ec StaticDependenciesID=0a424483f8f3855f0c9c07d1eb59f687 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.1585403Z
+  Time since last request: 0.0005025 seconds.
+  importAddress: GUID: 4e8732d4875cc0647b52b55a218072b6 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx - Importer: PreviewImporter
+Importing 'GUID: 4e8732d4875cc0647b52b55a218072b6 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesSpotlightModel.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4e8732d4875cc0647b52b55a218072b6' -> (Import Result ID: 'c00e5aa49b33b5847ba69eff1fa4f8d1') in 0.072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3a12f5352be69bf3973a755961638b3 DependenciesID=b94d109bc75a8324ff1289bf1951cd75 StaticDependenciesID=572a24143d7cfa21a326f1894a578df6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.2481151Z
+  Time since last request: 0.0006202 seconds.
+  importAddress: GUID: eaa6c47361520974cb9ad5cd3991f5ee - Path: Packages/com.unity.physics/Tests/PlayModeTests/HullGeneration/Meshes/teapot.fbx - Importer: PreviewImporter
+Importing 'GUID: eaa6c47361520974cb9ad5cd3991f5ee - Path: Packages/com.unity.physics/Tests/PlayModeTests/HullGeneration/Meshes/teapot.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: eaa6c47361520974cb9ad5cd3991f5ee' -> (Import Result ID: 'a64fd8a6e93718e87607e10f0bb54393') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be6ce182866773779345d7de01986040 DependenciesID=9837a1cf8f350352b5210dbb3b35ba70 StaticDependenciesID=3d60263152d9e136d476ba212968c76b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.2897402Z
+  Time since last request: 0.0006335 seconds.
+  importAddress: GUID: fbf5785e33f8f1a42ac1ff8318da7943 - Path: Packages/com.unity.physics/Tests/PlayModeTests/HullGeneration/Meshes/stanford-bunny.fbx - Importer: PreviewImporter
+Importing 'GUID: fbf5785e33f8f1a42ac1ff8318da7943 - Path: Packages/com.unity.physics/Tests/PlayModeTests/HullGeneration/Meshes/stanford-bunny.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fbf5785e33f8f1a42ac1ff8318da7943' -> (Import Result ID: '4f5ccb0968cc6811b75e1ee83ee7567b') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bf0aadc044cc316fdb57a073c5fc9b7 DependenciesID=6e75c138402187271093a4ee4889902c StaticDependenciesID=e24316a4126d0f35390deea3fa39b81a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.3279147Z
+  Time since last request: 0.0008233 seconds.
+  importAddress: GUID: 2756e572851f246979414816874a8ab3 - Path: Packages/com.unity.entities/Unity.Scenes.Hybrid.Tests/TestSceneWithSubScene/TestModel.fbx - Importer: PreviewImporter
+Importing 'GUID: 2756e572851f246979414816874a8ab3 - Path: Packages/com.unity.entities/Unity.Scenes.Hybrid.Tests/TestSceneWithSubScene/TestModel.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2756e572851f246979414816874a8ab3' -> (Import Result ID: 'a984dec232b63b45336f6b22fe76ae41') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d889429501937fc2e08b6c6d6244cac9 DependenciesID=e9d392d65546870f78ce63f7b0517f03 StaticDependenciesID=d30e007d36268dc1a4428a11b0e3c1f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.3595075Z
+  Time since last request: 0.0005951 seconds.
+  importAddress: GUID: 1dbf28c1bb322474d981b2dc555e28b0 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFloorSpotlight.fbx - Importer: PreviewImporter
+Importing 'GUID: 1dbf28c1bb322474d981b2dc555e28b0 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/SamplesFloorSpotlight.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1dbf28c1bb322474d981b2dc555e28b0' -> (Import Result ID: '2cc1d3b0fdf50bdfcdebacd921be1c78') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a393cc2a17ea82f7dd042bfaacc2fe1d DependenciesID=1e6f99df107d1041c7bdb62753207524 StaticDependenciesID=049418a1d50bb4884c2d2555daca421d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.4141161Z
+  Time since last request: 0.0006907 seconds.
+  importAddress: GUID: 20be25aac4e22ee49a7db76fb3df6de2 - Path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx - Importer: PreviewImporter
+Importing 'GUID: 20be25aac4e22ee49a7db76fb3df6de2 - Path: Packages/com.unity.render-pipelines.core/Runtime/Debug/ProbeSamplingDebugMesh.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 20be25aac4e22ee49a7db76fb3df6de2' -> (Import Result ID: '398e73c327e3394e3064ddefffe264e4') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4d77ea09b484398550797ed81c6bf88 DependenciesID=d078c3e99395bbedefffbca435a582c4 StaticDependenciesID=ab0e397f448f7c94bf577bb3dad7b54f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:23:07.4464219Z
+  Time since last request: 0.0005967 seconds.
+  importAddress: GUID: 39857cfad1651644682ff5b772e6e697 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx - Importer: PreviewImporter
+Importing 'GUID: 39857cfad1651644682ff5b772e6e697 - Path: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh/UnityMaterialBall.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39857cfad1651644682ff5b772e6e697' -> (Import Result ID: '95eabf5143d3f2a9b461746e4414f794') in 0.128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4dd84626c77923bb499a11858df28d7f DependenciesID=e5eb06dffba66c79a1764cf0c392c6c6 StaticDependenciesID=84e5fd6a3cd0532a2ac1088d1aeed4d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 63
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

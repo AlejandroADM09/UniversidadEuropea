@@ -1,0 +1,461 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26" at "2026-11-09T17:23:07.0720697Z"
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-09T17:23:07Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27996, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              48d2d839a5ab4679a951ca4d20934fa8
+  Correlation Id:          7e08e1c33d91199d788b6e611b07070c
+  External correlation Id: 7275642402672121835
+  Machine Id:              ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-amc26" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26-notifications" at "2026-11-09T17:23:07.1752743Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW2
+-projectPath
+C:/Users/amc26/Jenga
+-logFile
+Logs/AssetImportWorkerHW2.log
+-srvPort
+61346
+-parentPid
+35344
+-analyticsCloudUserId
+6872852281530
+-analyticsCloudProjectId
+8ef8dc00-0e5a-4148-9fe5-300035b8db2c
+-analyticsLocalProjectId
+8651b1c30b0a765438022736a339a570
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+7b11fd68d7eb0e6de8a68beb9d2638c55741abfe
+-cbmMachineId
+ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+-licensingIpc
+LicenseClient-amc26
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/amc26/Jenga
+C:/Users/amc26/Jenga
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [3200]  Target information:
+
+Player connection [3200]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3921975700 [EditorId] 3921975700 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3200]  * "[IP] 172.29.112.1 [Port] 0 [Flags] 2 [Guid] 3921975700 [EditorId] 3921975700 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3200]  * "[IP] 192.168.0.37 [Port] 0 [Flags] 2 [Guid] 3921975700 [EditorId] 3921975700 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3200] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3200] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: b7ee7cbef98002eece8141ec555bb866
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 3.62 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amc26/Jenga/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:          NVIDIA
+    VRAM:            8006 MB
+    App VRAM Budget: 7238 MB
+    Driver:          32.0.15.6603
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002220 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.586 seconds
+Domain Reload Profiling: 1280ms
+	BeginReloadAssembly (160ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (91ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (155ms)
+		TypeCache.Refresh (284ms)
+			TypeCache.ScanAssembly (268ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (587ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872852281530-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.04 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+TypeManager.Initialize took: 148ms
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.529 seconds
+Domain Reload Profiling: 2795ms
+	BeginReloadAssembly (294ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (856ms)
+		LoadAssemblies (444ms)
+		TypeCache.Refresh (220ms)
+			TypeCache.ScanAssembly (199ms)
+		AnalyzeDomain (80ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1530ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (631ms)
+			ProcessInitializeOnLoadMethodAttributes (372ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6386 unused Assets / (10.4 MB). Loaded Objects now: 7238.
+Memory consumption went from 369.9 MB to 359.5 MB.
+Total: 16.511200 ms (FindLiveObjects: 1.665400 ms CreateObjectMapping: 1.160000 ms MarkObjects: 10.228900 ms  DeleteObjects: 3.188300 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:27.4903055Z
+  Time since last request: 4267461.48161219991744 seconds.
+  importAddress: GUID: 4f1ef37ae953c484bbc5d5e4049147e5 - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Black.mat - Importer: PreviewImporter
+Importing 'GUID: 4f1ef37ae953c484bbc5d5e4049147e5 - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Black.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4f1ef37ae953c484bbc5d5e4049147e5' -> (Import Result ID: '1265dba6fa187aa1d9a6db8d99f8c71c') in 0.619 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5db02db9f3a1b1c634b27960db366340 DependenciesID=88b7021d23e40b80bf6b0a65ff5688b5 StaticDependenciesID=c20be6589341a6dbfcb6352369e816e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:28.1256284Z
+  Time since last request: 0.0000449 seconds.
+  importAddress: GUID: 31321ba15b8f8eb4c954353edc038b1d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat - Importer: PreviewImporter
+Importing 'GUID: 31321ba15b8f8eb4c954353edc038b1d - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31321ba15b8f8eb4c954353edc038b1d' -> (Import Result ID: '70de96abc85d0417eaa5c4a2392512fc') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0317e67a23331900c2604091f1762e59 DependenciesID=60dfcf72f2963f2cbd0ecd8d74583120 StaticDependenciesID=6f1278153ca11bbe5f955f323564fd62 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:28.1675461Z
+  Time since last request: 0.0004397 seconds.
+  importAddress: GUID: c2e40fa84d53ccd428f640eac126b1fb - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Gold.mat - Importer: PreviewImporter
+Importing 'GUID: c2e40fa84d53ccd428f640eac126b1fb - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Gold.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c2e40fa84d53ccd428f640eac126b1fb' -> (Import Result ID: 'ae1d422a5cbad021bd37c175b72be195') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06d2ad08faee01f5015524e771ecbe03 DependenciesID=da9bd66a845e951a002c6ac79dcba2a8 StaticDependenciesID=cb140b0c28ae65d51542901b687db667 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:28.1922132Z
+  Time since last request: 0.0008506 seconds.
+  importAddress: GUID: bd9d6f7bffdaa3440b6f685b2474a217 - Path: Assets/Materials/table_wood.mat - Importer: PreviewImporter
+Importing 'GUID: bd9d6f7bffdaa3440b6f685b2474a217 - Path: Assets/Materials/table_wood.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bd9d6f7bffdaa3440b6f685b2474a217' -> (Import Result ID: '0d558699e99c63d65208014525529a01') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de1c65bcfb4535c1f8ab26b26c3d713e DependenciesID=fb07f41b3e70dc53860427fc501b5b0b StaticDependenciesID=5de6b1aa7b1d9c6cec88173f957e82cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:28.2177545Z
+  Time since last request: 0.0005355 seconds.
+  importAddress: GUID: 761d8e1f988ed2345a28312145c79c6e - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Ground.mat - Importer: PreviewImporter
+Importing 'GUID: 761d8e1f988ed2345a28312145c79c6e - Path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials/Ground.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 761d8e1f988ed2345a28312145c79c6e' -> (Import Result ID: '182c56f8fde153c4afe5a12a4e8f7983') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f5f47816f3fb3988c00edcf510cf70f DependenciesID=c37ba690efdaafd9c51feba4e94852b8 StaticDependenciesID=15e3d53ff1cb634309a09ed50183aa58 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:28.2470088Z
+  Time since last request: 0.000477 seconds.
+  importAddress: GUID: 0c96f056df73a4d5a90cbc44c0ceb942 - Path: Packages/com.unity.physics/Unity.Physics.Hybrid/Assets/DebugDisplay/DebugDisplayResources/MeshMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 0c96f056df73a4d5a90cbc44c0ceb942 - Path: Packages/com.unity.physics/Unity.Physics.Hybrid/Assets/DebugDisplay/DebugDisplayResources/MeshMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+d3d12: Vertex Shader "MeshShaderProc" requires a buffer (SRV) "colorBuffer" at index 0, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:1139)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:943)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:918)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderCameras (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:671)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:599)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs line 1139]
+
+Imported 'GUID: 0c96f056df73a4d5a90cbc44c0ceb942' -> (Import Result ID: '3c90316f132b5ef73922170129339c14') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de471a60f8e89cbefa1dab2123241d90 DependenciesID=bbe5f37bb7c029958a503f598c009c2b StaticDependenciesID=4cf90b8c22404139656ea2cbf98c8fb7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:28.3127438Z
+  Time since last request: 0.0004656 seconds.
+  importAddress: GUID: 8c0a581cec9f1b84ca44c736c4c4b15c - Path: Packages/com.unity.physics/Unity.Physics.Hybrid/Assets/DebugDisplay/DebugDisplayResources/LineMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 8c0a581cec9f1b84ca44c736c4c4b15c - Path: Packages/com.unity.physics/Unity.Physics.Hybrid/Assets/DebugDisplay/DebugDisplayResources/LineMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+d3d12: Vertex Shader "LineShaderProc" requires a buffer (SRV) "colorBuffer" at index 0, but none provided. Skipping draw calls to avoid crashing.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Rendering.ScriptableRenderContext:Submit ()
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:1139)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:943)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:918)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderCameras (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:671)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs:599)
+UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEngine.Camera:Render ()
+UnityEditor.PreviewRenderUtility:RenderCamera ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[./Library/PackageCache/com.unity.render-pipelines.universal@9b1eb8be54e0/Runtime/UniversalRenderPipeline.cs line 1139]
+
+Imported 'GUID: 8c0a581cec9f1b84ca44c736c4c4b15c' -> (Import Result ID: '902ca8560443319189e599d09448c1e5') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d154fa050521aab005f0f75196f10552 DependenciesID=fa52584c37d4c57ba9289354706bec32 StaticDependenciesID=6b71ca45c0bea33849aa12055579eeb2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.5939268Z
+  Time since last request: 8.234961 seconds.
+  importAddress: GUID: 80a6650961473a9469bc66fa8240dea8 - Path: Assets/Prefabs/floor.prefab - Importer: PreviewImporter
+Importing 'GUID: 80a6650961473a9469bc66fa8240dea8 - Path: Assets/Prefabs/floor.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 80a6650961473a9469bc66fa8240dea8' -> (Import Result ID: '1137f030bd08156ce70c64ad8733fe93') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57a90b075bf796b259c9622558db9fbb DependenciesID=9d20c9c6095f9ebe240a746fa0065014 StaticDependenciesID=86cfce3059a48a0901699658b8814060 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.6333728Z
+  Time since last request: 0.0002567 seconds.
+  importAddress: GUID: 04f14ceaa566296498a77db36f901819 - Path: Assets/Prefabs/token_red.prefab - Importer: PreviewImporter
+Importing 'GUID: 04f14ceaa566296498a77db36f901819 - Path: Assets/Prefabs/token_red.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 04f14ceaa566296498a77db36f901819' -> (Import Result ID: '755e77568338ae547fe1ad284084cee5') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5570cd8c340e53a8f856bae77cb01c8a DependenciesID=3fb57fba8236fed9bb545db7db44b427 StaticDependenciesID=0d8a67c3a7d7ff95dd6aeac869af9589 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.6564885Z
+  Time since last request: 0.0003137 seconds.
+  importAddress: GUID: 354b85a68f992134d9db037099e41c25 - Path: Packages/com.unity.entities/Unity.Entities.Hybrid.Tests/Prefabs/Prefab_MissingMB.prefab - Importer: PreviewImporter
+Importing 'GUID: 354b85a68f992134d9db037099e41c25 - Path: Packages/com.unity.entities/Unity.Entities.Hybrid.Tests/Prefabs/Prefab_MissingMB.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 354b85a68f992134d9db037099e41c25' -> (Import Result ID: '3d1f0321428f83110225bfce4dde3889') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12a4cdf5fc295143c1858d8441a4a629 DependenciesID=bc6ee94859089ebd360c35f75d2c3493 StaticDependenciesID=67cc652be2bcc93cede08c201db149f2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.6739639Z
+  Time since last request: 0.0004513 seconds.
+  importAddress: GUID: 8b8b2306a76110642a3d9d1b79fc7cdc - Path: Packages/com.unity.entities/Unity.Scenes.Editor.PerformanceTests/Assets/Sphere.prefab - Importer: PreviewImporter
+Importing 'GUID: 8b8b2306a76110642a3d9d1b79fc7cdc - Path: Packages/com.unity.entities/Unity.Scenes.Editor.PerformanceTests/Assets/Sphere.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8b8b2306a76110642a3d9d1b79fc7cdc' -> (Import Result ID: '087df618ccd1f5f1c189319759a4474d') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16766ffad58f62643e4cce423ee649ce DependenciesID=e48849e1cdab7a1b45ddcc08604df64e StaticDependenciesID=40781e607a487ce38bf1d5fb3f983818 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7398.
+Memory consumption went from 380.3 MB to 374.4 MB.
+Total: 16.544600 ms (FindLiveObjects: 0.852300 ms CreateObjectMapping: 0.290200 ms MarkObjects: 13.310900 ms  DeleteObjects: 1.754800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.56 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7398.
+Memory consumption went from 381.0 MB to 375.0 MB.
+Total: 16.135100 ms (FindLiveObjects: 0.902500 ms CreateObjectMapping: 0.400800 ms MarkObjects: 12.486600 ms  DeleteObjects: 1.992500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7398.
+Memory consumption went from 381.7 MB to 375.7 MB.
+Total: 14.136000 ms (FindLiveObjects: 0.937200 ms CreateObjectMapping: 0.493300 ms MarkObjects: 10.145600 ms  DeleteObjects: 2.274100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7398.
+Memory consumption went from 382.3 MB to 376.3 MB.
+Total: 12.030300 ms (FindLiveObjects: 0.799600 ms CreateObjectMapping: 0.279800 ms MarkObjects: 8.902100 ms  DeleteObjects: 1.754700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7398.
+Memory consumption went from 383.0 MB to 377.1 MB.
+Total: 12.516600 ms (FindLiveObjects: 0.850900 ms CreateObjectMapping: 0.264400 ms MarkObjects: 9.310400 ms  DeleteObjects: 1.831300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:26.5635264Z
+  Time since last request: 6709.85492210000029 seconds.
+  importAddress: GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: PreviewImporter
+Importing 'GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 38bbc8a93e65ff643839ec40725803ec' -> (Import Result ID: 'dd6a68104bad0539c0edfd571a653b43') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc69d82caea29d6b293d4215a90bc189 DependenciesID=197399998e946d6b5eddc7f56dd75883 StaticDependenciesID=7db790f04e57314e87fe38134ca6ddf6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.5250684Z
+  Time since last request: 0.9385977 seconds.
+  importAddress: GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b249a34a372a73b438f909085f76683f' -> (Import Result ID: '764f563aafa741f76268e71d1ba2d4ba') in 0.177 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7927ca3135694620650efcf7c681d3c5 DependenciesID=a1bbb38920e398b052b8fe6efb7777d0 StaticDependenciesID=b96a84489a21476d5d9c6981131830a3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

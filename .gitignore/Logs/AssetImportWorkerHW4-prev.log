@@ -1,0 +1,1606 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26" at "2026-11-09T17:33:27.6996576Z"
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-09T17:33:27Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27996, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              3f5329aaff0d476bbb5c455455846783
+  Correlation Id:          7e08e1c33d91199d788b6e611b07070c
+  External correlation Id: 8332607153202674472
+  Machine Id:              ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-amc26" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26-notifications" at "2026-11-09T17:33:27.7503816Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW4
+-projectPath
+C:/Users/amc26/Jenga
+-logFile
+Logs/AssetImportWorkerHW4.log
+-srvPort
+61346
+-parentPid
+35344
+-analyticsCloudUserId
+6872852281530
+-analyticsCloudProjectId
+8ef8dc00-0e5a-4148-9fe5-300035b8db2c
+-analyticsLocalProjectId
+8651b1c30b0a765438022736a339a570
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+7b11fd68d7eb0e6de8a68beb9d2638c55741abfe
+-cbmMachineId
+ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+-licensingIpc
+LicenseClient-amc26
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/amc26/Jenga
+C:/Users/amc26/Jenga
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [19712]  Target information:
+
+Player connection [19712]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2651918058 [EditorId] 2651918058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19712]  * "[IP] 172.29.112.1 [Port] 0 [Flags] 2 [Guid] 2651918058 [EditorId] 2651918058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19712]  * "[IP] 192.168.0.37 [Port] 0 [Flags] 2 [Guid] 2651918058 [EditorId] 2651918058 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: b7ee7cbef98002eece8141ec555bb866
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 4.47 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amc26/Jenga/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:          NVIDIA
+    VRAM:            8006 MB
+    App VRAM Budget: 7238 MB
+    Driver:          32.0.15.6603
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003513 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.606 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (166ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (160ms)
+		TypeCache.Refresh (295ms)
+			TypeCache.ScanAssembly (278ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (607ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (222ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872852281530-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+TypeManager.Initialize took: 141ms
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.567 seconds
+Domain Reload Profiling: 2859ms
+	BeginReloadAssembly (294ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (869ms)
+		LoadAssemblies (464ms)
+		TypeCache.Refresh (219ms)
+			TypeCache.ScanAssembly (196ms)
+		AnalyzeDomain (82ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1568ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (642ms)
+			ProcessInitializeOnLoadMethodAttributes (398ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6386 unused Assets / (10.8 MB). Loaded Objects now: 7238.
+Memory consumption went from 370.3 MB to 359.5 MB.
+Total: 17.445400 ms (FindLiveObjects: 1.475000 ms CreateObjectMapping: 0.977300 ms MarkObjects: 10.676100 ms  DeleteObjects: 3.989800 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.59185Z
+  Time since last request: 4267470.58315720036626 seconds.
+  importAddress: GUID: 49cb77be2b9bdfa42ac1a0cfd55dd7f3 - Path: Packages/com.unity.entities/Unity.Scenes.Editor.PerformanceTests/Assets/Empty.prefab - Importer: PreviewImporter
+Importing 'GUID: 49cb77be2b9bdfa42ac1a0cfd55dd7f3 - Path: Packages/com.unity.entities/Unity.Scenes.Editor.PerformanceTests/Assets/Empty.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 49cb77be2b9bdfa42ac1a0cfd55dd7f3' -> (Import Result ID: 'f44cc03c32faf94268b5bd5a9249a6d6') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e48ecfc37f2401929cdf689fbbaead26 DependenciesID=18823d6b43726777d419698905a0432f StaticDependenciesID=52265819104812ed6ee48da7cd998c3d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.65026Z
+  Time since last request: 0.0000889 seconds.
+  importAddress: GUID: a177e7183feb3f34d9df03e1b53321f6 - Path: Packages/com.unity.entities/Unity.Entities.Hybrid.Tests/Prefabs/Prefab_Hierarchy_With_StaticOptimizeEntity.prefab - Importer: PreviewImporter
+Importing 'GUID: a177e7183feb3f34d9df03e1b53321f6 - Path: Packages/com.unity.entities/Unity.Entities.Hybrid.Tests/Prefabs/Prefab_Hierarchy_With_StaticOptimizeEntity.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a177e7183feb3f34d9df03e1b53321f6' -> (Import Result ID: '01137d180cfcedd80c2302af20450788') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55cf745a02e1436d39d1cfb1a65f0c4f DependenciesID=b248fd9a13be998b413fd06445bb61f4 StaticDependenciesID=ef7d2ad97d1f420daf0d322d774b709c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.6656651Z
+  Time since last request: 0.0004376 seconds.
+  importAddress: GUID: 09b1f1eddafb12849bff8b0da87c78f0 - Path: Packages/com.unity.entities/Unity.Entities.Hybrid.Tests/Prefabs/Prefab_Reference_Prefab.prefab - Importer: PreviewImporter
+Importing 'GUID: 09b1f1eddafb12849bff8b0da87c78f0 - Path: Packages/com.unity.entities/Unity.Entities.Hybrid.Tests/Prefabs/Prefab_Reference_Prefab.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 09b1f1eddafb12849bff8b0da87c78f0' -> (Import Result ID: '0ee1545b777bf3e2e7d302650392ce95') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3d822bd4c2ae206c7474b517699eace DependenciesID=7a5ec03678183b1cb6183798b14c9dbf StaticDependenciesID=d2e0e801af09d0f1909e6292571b3799 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:33:36.6823812Z
+  Time since last request: 0.0003279 seconds.
+  importAddress: GUID: 02a135399dc10dc449ef1b9bd4c7ac88 - Path: Assets/Prefabs/token_yellow.prefab - Importer: PreviewImporter
+Importing 'GUID: 02a135399dc10dc449ef1b9bd4c7ac88 - Path: Assets/Prefabs/token_yellow.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 02a135399dc10dc449ef1b9bd4c7ac88' -> (Import Result ID: '2d71a212455da7d4d184a2c456073a7d') in 0.452 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b96a5f4098f4b3c2b347fe3077b9c5c DependenciesID=716f323bbc9ccf7387bc8f8fd38e8616 StaticDependenciesID=5637aa1ae1dab5cf25af3ac6c11c2ad8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:35:20.8614759Z
+  Time since last request: 103.7131624 seconds.
+  importAddress: GUID: 1a15ecadd7418acdfcf718d219e07474 - Path: Packages/com.unity.ide.visualstudio - Importer: PreviewImporter
+Importing 'GUID: 1a15ecadd7418acdfcf718d219e07474 - Path: Packages/com.unity.ide.visualstudio - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1a15ecadd7418acdfcf718d219e07474' -> (Import Result ID: 'd49bb2cf89468cf47accb744e95231fa') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb9555c47ddb54f49c519d43a3e4c7ca DependenciesID=b9cf641af6de5e71b48fdf024d57835c StaticDependenciesID=3a24d49f4f1f62a49f721872ce768882 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T17:35:22.3353873Z
+  Time since last request: 1.4625255 seconds.
+  importAddress: GUID: 478748e192b249ef955b26edd7183af5 - Path: Packages/com.unity.physics - Importer: PreviewImporter
+Importing 'GUID: 478748e192b249ef955b26edd7183af5 - Path: Packages/com.unity.physics - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 478748e192b249ef955b26edd7183af5' -> (Import Result ID: '406645ebdf25246940c3a59836332a6f') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=746767fa6a9e76f026153e23e200e3a8 DependenciesID=2e9b89ea75ca5b2a54778a5208dc019f StaticDependenciesID=2b833c286bcd688e7ad074aa56b4cf29 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 380.1 MB to 374.1 MB.
+Total: 15.932900 ms (FindLiveObjects: 0.865300 ms CreateObjectMapping: 0.396000 ms MarkObjects: 12.634500 ms  DeleteObjects: 1.765900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T18:44:11.9343099Z
+  Time since last request: 4129.58796079999956 seconds.
+  importAddress: GUID: 5a0b21dbce87af242ac06764b2234778 - Path: Assets/Materials/New Physics Material.physicMaterial - Importer: PreviewImporter
+Importing 'GUID: 5a0b21dbce87af242ac06764b2234778 - Path: Assets/Materials/New Physics Material.physicMaterial - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a0b21dbce87af242ac06764b2234778' -> (Import Result ID: 'befd7e673201f7c01732acd60bf51bf9') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f00b729c487128f4346a6281c5a36d6d DependenciesID=c3bb23e32488723d592ba390e62a3f7a StaticDependenciesID=cf1cdd3796e1736262d01375520583da 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T18:44:12.1182826Z
+  Time since last request: 0.170239 seconds.
+  importAddress: GUID: 5a0b21dbce87af242ac06764b2234778 - Path: Assets/Materials/New Physics Material.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5a0b21dbce87af242ac06764b2234778 - Path: Assets/Materials/New Physics Material.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5a0b21dbce87af242ac06764b2234778' -> (Import Result ID: '849d248adf4a423c127d7dd406fb6cb2') in 0.079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f09eb078dbbcebf3b439fff9d47d74cd DependenciesID=6b78457fd91c9b5d2630ea3a6ae30788 StaticDependenciesID=046fe1a47042c980e38d1612fe1d0a8f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 381.6 MB to 375.6 MB.
+Total: 16.091400 ms (FindLiveObjects: 0.903500 ms CreateObjectMapping: 0.362500 ms MarkObjects: 12.559100 ms  DeleteObjects: 1.947400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:21:57.4591299Z
+  Time since last request: 2265.2502970999999 seconds.
+  importAddress: GUID: de47cb450b8674c4a8d21a3ba9a6789f - Path: Assets/Prefabs/dado - Importer: PreviewImporter
+Importing 'GUID: de47cb450b8674c4a8d21a3ba9a6789f - Path: Assets/Prefabs/dado - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: de47cb450b8674c4a8d21a3ba9a6789f' -> (Import Result ID: '863f402df22f121163863a0b41148610') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ab9739279d5f2e269a155dddc426faf DependenciesID=71dd300ac15cbaade4fee87a34bdf5c0 StaticDependenciesID=6e4ed644b518df5bd29e9f1245a1b688 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:21:57.9191157Z
+  Time since last request: 0.4487585 seconds.
+  importAddress: GUID: de47cb450b8674c4a8d21a3ba9a6789f - Path: Assets/Prefabs/dado - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: de47cb450b8674c4a8d21a3ba9a6789f - Path: Assets/Prefabs/dado - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: de47cb450b8674c4a8d21a3ba9a6789f' -> (Import Result ID: '4bfc351efecea53d82e627a499a5f846') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27a97272043780abc797abdd5d523892 DependenciesID=652905be105550b3fb908e487ae12b18 StaticDependenciesID=87c9f668cb9f1647fa7d8f02fe0e30ab 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:22:04.4421024Z
+  Time since last request: 6.5094365 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '9a71adf5aeb647da98d60431f098e8fb') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=08948faab4c73bf79fe61e8bd4f71864 StaticDependenciesID=acbbf1e5232a6e10d242ba7f6f329ac4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:22:05.4229739Z
+  Time since last request: 0.9327229 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '70dffec9ff5a065168eed5b128d622dc') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=349b8dc1ebb927d91d21ef03716894a7 DependenciesID=3bee4c764d886de2603e658160f8a21e StaticDependenciesID=e5b3cfed1a38726f0e72a7a9dde298ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.30 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.0 MB to 375.9 MB.
+Total: 13.650900 ms (FindLiveObjects: 0.925600 ms CreateObjectMapping: 0.526900 ms MarkObjects: 9.821100 ms  DeleteObjects: 2.101700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.6 MB to 376.6 MB.
+Total: 12.780200 ms (FindLiveObjects: 0.819500 ms CreateObjectMapping: 0.286400 ms MarkObjects: 9.550000 ms  DeleteObjects: 1.839300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 383.3 MB to 377.4 MB.
+Total: 12.175400 ms (FindLiveObjects: 0.858000 ms CreateObjectMapping: 0.300900 ms MarkObjects: 9.021900 ms  DeleteObjects: 1.737800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.5249941Z
+  Time since last request: 202.06518019999999 seconds.
+  importAddress: GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a80c60a3fc10f4245a1e984e49fd38fd' -> (Import Result ID: '8189f7af855737fa5461855e3762ba2f') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee7d85327eeda31f30f8993fc870bf2d DependenciesID=88affb67c685c06829d3feb159a4ef58 StaticDependenciesID=e231ce74787d411fecac721fed5d695a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.5877104Z
+  Time since last request: 0.0002244 seconds.
+  importAddress: GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 38bbc8a93e65ff643839ec40725803ec' -> (Import Result ID: 'fe6fd5f999525d737a43c0f8f05d8b30') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8ff0cc2d4ce68046f421f141d15dcba DependenciesID=e4e81594985ae683c8e763412283d5c9 StaticDependenciesID=7141441e34411726a87ee1cab2c5ce38 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.6142773Z
+  Time since last request: 0.0002376 seconds.
+  importAddress: GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9' -> (Import Result ID: '3f03d80dd79bbe11714e3212dfcfb256') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9ed1df4b0c4a1385046ded1c58803e1 DependenciesID=20d634d88d4713e8d09c234323a4122a StaticDependenciesID=b8814c9356a5ef2dec85b57efaa883d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.6334955Z
+  Time since last request: 0.0003575 seconds.
+  importAddress: GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 492d7ba195a834446bbf90a28e2ebfa7' -> (Import Result ID: 'd7c75f8e8ae5d5e8098b39c458047b3e') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a7fc96176d7634f2753036db4b4209e DependenciesID=ff67a929acabd4df559c41fa574db758 StaticDependenciesID=35ddb9c96fac4079120465dd34883a35 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.6602585Z
+  Time since last request: 0.0002422 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '7cfefba04c65171a4eddc36f8198c98c') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2e089461b2f4afa1544af471fbbefbb DependenciesID=df83e93bfe2959517fba0be33d56754b StaticDependenciesID=d829d8d3ce68ae47859019572470cc80 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:27.6798001Z
+  Time since last request: 0.000237 seconds.
+  importAddress: GUID: c5cb8fc7fddf9a84ea38c269264c65d4 - Path: Assets/Prefabs/dado/Plane (3).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c5cb8fc7fddf9a84ea38c269264c65d4 - Path: Assets/Prefabs/dado/Plane (3).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c5cb8fc7fddf9a84ea38c269264c65d4' -> (Import Result ID: 'da0f22d959adeb9ed0c81e39c15fd44c') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1663a2e4eecfbf7f31c5048f6928f66 DependenciesID=46c5f3f092bc5eecf98ae186e8ca612e StaticDependenciesID=fe0403a03de75c0b6539a5a30c671c5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:30.5744923Z
+  Time since last request: 2.8718788 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '1d68beeeca75d2a61d90e8571b1d48d3') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=c1b065c8e276f9ead866aeb69f37e842 StaticDependenciesID=afb6a4414a6e2f04ce5632c982b6d625 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:31.2093627Z
+  Time since last request: 0.612787 seconds.
+  importAddress: GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: PreviewImporter
+Importing 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9' -> (Import Result ID: 'b77d0d8fce532c96e1066f9e7d19ec13') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c0ddd99a3625b5f4f0e168914db7244 DependenciesID=8feb59d9419bbe49bdfdf536f2801c05 StaticDependenciesID=437df61f18f79a9d029ad6b02a97d3b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:31.6535471Z
+  Time since last request: 0.4264292 seconds.
+  importAddress: GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: PreviewImporter
+Importing 'GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 492d7ba195a834446bbf90a28e2ebfa7' -> (Import Result ID: 'db9ed97e804beed4ae15bf98234c375f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5aeaf7f3d063033455a6d32ce9eb4901 DependenciesID=f4062464f9c1830a4bdb3c9e4fd72e19 StaticDependenciesID=1ef2f701f846055cecf436dd7910bda4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:25:33.028862Z
+  Time since last request: 1.3583101 seconds.
+  importAddress: GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: PreviewImporter
+Importing 'GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a80c60a3fc10f4245a1e984e49fd38fd' -> (Import Result ID: 'f7ca05b0ab5f6b8136ace7a08cd6116a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e79e6b179ceea723749607cd4286e539 DependenciesID=d3284e376c263e87cda215bb2be5a165 StaticDependenciesID=cbabada73f767ed614e7904e2f5e3879 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.32 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.0 MB.
+Total: 12.196500 ms (FindLiveObjects: 0.795300 ms CreateObjectMapping: 0.256900 ms MarkObjects: 8.702400 ms  DeleteObjects: 2.149500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:27:47.2360022Z
+  Time since last request: 134.18931380000001 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '4c2ea57d9c895319b2f1d22906ffd26f') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd7cdc0d878c0e56620fad994781c269 DependenciesID=3e65f23ce755f8bba25d0dcd169507de StaticDependenciesID=4a61edbfbd81aac9cb01c301a73035cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.7 MB to 376.8 MB.
+Total: 15.421500 ms (FindLiveObjects: 1.268700 ms CreateObjectMapping: 0.608100 ms MarkObjects: 11.196700 ms  DeleteObjects: 2.028500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:35:48.542712Z
+  Time since last request: 481.29264499999999 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '69e72ad841e39c37506267ea5ab77f29') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=286dba37812d5bf4f2e3ca6ddc18f8c3 StaticDependenciesID=ce657c3bc568f06298e52c16150b4259 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:35:49.292245Z
+  Time since last request: 0.7227009 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '3ce233a895db5e6562cd75c4f183fb82') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f30d2169ff0db53d0be581573c5829e DependenciesID=0fc405513aba2d1c5db1f1c3b69a3772 StaticDependenciesID=7166eeef46e43844c592931458125d62 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:36:04.1916255Z
+  Time since last request: 14.8851471 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '89e919a46e131b87e184f41e70068d56') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=cb8a39969a0901343c8c315659b46ed7 StaticDependenciesID=162b3b4319c30353c9cde8053f1994a4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:36:05.1724983Z
+  Time since last request: 0.9598342 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '4cdafc5da91dea6946404b3f686d8d7c') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a61c988420de3262abd536350dfd6b8 DependenciesID=8ed90f8e56beaa763191c078b5fc55e8 StaticDependenciesID=b5539aa58e55813dc95b75cb87b76f54 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.2 MB.
+Total: 12.913900 ms (FindLiveObjects: 0.893400 ms CreateObjectMapping: 0.284400 ms MarkObjects: 9.201400 ms  DeleteObjects: 2.190300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:36:14.6146745Z
+  Time since last request: 9.4274584 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '3d2e9223defc89e48b43f888cb137e8f') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=3927ab763d7de9b3b5624d2637abed90 StaticDependenciesID=be4788ca4056316c5908798cb2514b24 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:36:15.3738634Z
+  Time since last request: 0.7345971 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'c60764e477fdc708a9c64998a289b396') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=379dc8dec6f3b6f0a405a6e7fb2b33c1 DependenciesID=e502e4e6cf6b22a406ca37f964d2d147 StaticDependenciesID=2821425f37aef5812474214b03c6095d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.2 MB.
+Total: 13.961000 ms (FindLiveObjects: 1.182100 ms CreateObjectMapping: 0.444500 ms MarkObjects: 10.144400 ms  DeleteObjects: 1.913600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:38:12.1584683Z
+  Time since last request: 116.76759850000001 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '729cee1826aa974f1d2ec39e75955629') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c0cf30d0d9e64ec40af8a6ae352ecf9 DependenciesID=43715e48f5db7c30b75596c4f128790c StaticDependenciesID=503a8da7d64b356d83bd773b1c74be90 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.57 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.8 MB.
+Total: 14.254600 ms (FindLiveObjects: 0.873400 ms CreateObjectMapping: 0.316000 ms MarkObjects: 10.739300 ms  DeleteObjects: 1.983200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:38:31.6279781Z
+  Time since last request: 19.4527643 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '7b4d24b681ad438146b6b961faa50691') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3b54c38b40e9d0557ed82dbac2ee1a86 DependenciesID=ab936d780dd9a7eec031f97747f8e69d StaticDependenciesID=6d02e5631893e03e383ccd495317c78f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.8 MB.
+Total: 11.381400 ms (FindLiveObjects: 0.935200 ms CreateObjectMapping: 0.347600 ms MarkObjects: 8.031600 ms  DeleteObjects: 1.790500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:38:39.0284223Z
+  Time since last request: 7.3853866 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'f1553063252c5afeeb8d9bed05ff540d') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ceabfda3c877eb0f1426b2f8258d440 DependenciesID=284eb323f2506d0a4d85cd7df058bee0 StaticDependenciesID=90d8ce0c7fa2b113b3ec8df9da311666 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:40:39.0445844Z
+  Time since last request: 119.99810069999999 seconds.
+  importAddress: GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: PreviewImporter
+Importing 'GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b249a34a372a73b438f909085f76683f' -> (Import Result ID: 'c06fd85926b5ee09e358a70de54afe5b') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18564ae076c88e154f1299da4db4e983 DependenciesID=aeb0f1ed321551f97a9252082ec641dc StaticDependenciesID=74c08a79ff9d5eb7e051d5a1e5547eb2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:40:43.3093358Z
+  Time since last request: 4.2407506 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '96ba0fec0d09395baaa40078932b1d39') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=e20ac923258cb9b50e34312c031e9c38 StaticDependenciesID=105e76721a5443925319bfd1f94bb0e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.1 MB.
+Total: 12.082600 ms (FindLiveObjects: 0.874000 ms CreateObjectMapping: 0.422100 ms MarkObjects: 8.795900 ms  DeleteObjects: 1.709600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:41:26.6172473Z
+  Time since last request: 43.2852878 seconds.
+  importAddress: GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: PreviewImporter
+Importing 'GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 492d7ba195a834446bbf90a28e2ebfa7' -> (Import Result ID: 'f9c478a9cd30d7010cdefd430c8677ff') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5aeaf7f3d063033455a6d32ce9eb4901 DependenciesID=cf52adeebac530ab7614aa80369f602b StaticDependenciesID=8c3061f1e36a05af0e2b3c2e56cbb9bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.1 MB.
+Total: 13.301300 ms (FindLiveObjects: 0.867400 ms CreateObjectMapping: 0.236400 ms MarkObjects: 10.065600 ms  DeleteObjects: 1.855600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.7 MB to 376.8 MB.
+Total: 15.204100 ms (FindLiveObjects: 0.877800 ms CreateObjectMapping: 0.244600 ms MarkObjects: 11.356200 ms  DeleteObjects: 2.416200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:51:47.1067512Z
+  Time since last request: 620.47028599999999 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '8bd03fc70b8711cb2b8c8507aea6d0a1') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a58d9f57107376720065eacfb7c2675 DependenciesID=de56e80238dcfbc54ef61bf16b79fa32 StaticDependenciesID=863e4577267a14d747cf8664316d3ee6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:52:30.8054892Z
+  Time since last request: 43.6809842 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '2a02858432182587142c0b5ecccc0c62') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6614b12e28696d698f6db3d3072b3354 DependenciesID=308bdeff133ee718194ab1755ecb0185 StaticDependenciesID=d4fb94a82541427eab19f528899cbc1d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:52:32.8078693Z
+  Time since last request: 1.9862671 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '6e7f241fd048019965556ef00e491b21') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61575fd5a4d9eaa120b2d441727d9691 DependenciesID=64f71d51465e81798b11cd2f8d990e8c StaticDependenciesID=7f15452bb93a6f6f6728e7c39e9c4063 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:52:34.2263391Z
+  Time since last request: 1.4003522 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'f8b46385ba399ab8489d540f858cd2cf') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a7d9439370581a99925fe4e2cb2025c DependenciesID=3218d65821bb48a2d05548fa4e1fe7c8 StaticDependenciesID=4d768848793a4ff1914d134e25b27090 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:52:37.5466994Z
+  Time since last request: 3.3046659 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '879dbcf8085b7ad97e868fc1c12b8e73') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc2d7747db70e2725657a9d1ef00b2c1 DependenciesID=617724dbeebd8ea53459874916fdc417 StaticDependenciesID=4e0a0840c5424389cb6eff78e57f88fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:52:39.9681762Z
+  Time since last request: 2.4056761 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '5d0967748f4028825a74466cfa01fc49') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f80c85cf8b8f4504bd4c72e5509d95f7 DependenciesID=65fe0fa2c16c65cd646d711cec5b2859 StaticDependenciesID=8cff1f78390914c4b3c97fecaf57c28a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:53:29.3693419Z
+  Time since last request: 49.3852725 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '81f1a31c117b4ca644c4a9960ac56b5d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd2a3ec3c962187d7aae4a36c310cd51 DependenciesID=0be87d44d874b0e4994585c8af63e413 StaticDependenciesID=298747403df46eec9b472b6176eec61f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:53:35.3520402Z
+  Time since last request: 5.9434002 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'aef1aa63bd231fcffddf154552aa288f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8945673e05f9d52974daf11a9e42092a DependenciesID=9554e41eca33bc4f88cac4f187690b60 StaticDependenciesID=40de909302fd375fbbcbc391be50c4b1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:08.5945806Z
+  Time since last request: 213.22564800000001 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'f77d319d20291b5ad87493dc5a1fb7a2') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=85ef99e37a3d6ab9c195cd9fafa82631 StaticDependenciesID=1faede15bd1782044f079f38539883c9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.86 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.0 MB.
+Total: 14.304900 ms (FindLiveObjects: 1.041200 ms CreateObjectMapping: 0.620500 ms MarkObjects: 9.904700 ms  DeleteObjects: 2.299900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:18.2698395Z
+  Time since last request: 9.6527133 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '98885352dfab5df7ca6f49ef1dd28552') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=5b90f945549830e0a12d30516e90257a StaticDependenciesID=8876f64133e50113bce305114592e4c4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:19.0143868Z
+  Time since last request: 0.7213573 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'c57ba8cdec937da8b1dacc4e2ea66a62') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=190cd2205cf930051af62771d963c9a5 DependenciesID=5ee217e5e3e024048608a92198dd34de StaticDependenciesID=5991e5083bb8a48cbc5a5bc400fac2e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.1 MB.
+Total: 12.568700 ms (FindLiveObjects: 0.873700 ms CreateObjectMapping: 0.280900 ms MarkObjects: 9.018200 ms  DeleteObjects: 2.106700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:47.7940853Z
+  Time since last request: 28.7642107 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'f97dd0d00bca8e5cfe75c6cad964b84d') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=180eeef4e70dae9ef15baa768c84cb5a StaticDependenciesID=799e25953f233ff13500a678b4a2ac13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:48.5415988Z
+  Time since last request: 0.7155298 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '4d890a88a0c2cb9258a69afe0ae81bb0') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56342db21fd0bfe31d2ac26990508eec DependenciesID=d53c6dfd3acc14c4df8edb5cee612c6d StaticDependenciesID=6d114d0fd91e92636ae9dafa51efa554 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:51.7830123Z
+  Time since last request: 3.2275701 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '7379184f7baf5fce6b7a7ba4cfb8a878') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=2d460eea1ca1afdbd441d02ccadea704 StaticDependenciesID=3fab036521dd16aabea75a768a88242b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 105
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:57:52.7627232Z
+  Time since last request: 0.957541 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '86d190cd37aaacce1f38e63ede8038c9') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=930612dafca387292614a9582956ae6a DependenciesID=d7301e3222572529cffbd51156fee625 StaticDependenciesID=7c0ea606aca7fbbcb6039d86d0abfec9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:58:07.8810331Z
+  Time since last request: 15.1016342 seconds.
+  importAddress: GUID: c5cb8fc7fddf9a84ea38c269264c65d4 - Path: Assets/Prefabs/dado/Plane (3).prefab - Importer: PreviewImporter
+Importing 'GUID: c5cb8fc7fddf9a84ea38c269264c65d4 - Path: Assets/Prefabs/dado/Plane (3).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c5cb8fc7fddf9a84ea38c269264c65d4' -> (Import Result ID: 'e0ac0f60ad99c7256645af115c9ebd26') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16bcd15f4563848285b0f5a5440660ee DependenciesID=464cb82b8607d936cacd7760ad075d39 StaticDependenciesID=a36f5cc4d9b9144fcfe35674fb52f55a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.2 MB to 376.2 MB.
+Total: 13.018300 ms (FindLiveObjects: 0.860100 ms CreateObjectMapping: 0.246600 ms MarkObjects: 9.059000 ms  DeleteObjects: 2.545200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:59:32.6764003Z
+  Time since last request: 84.7788513 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'a80316324125823cfbe8595316ab68f1') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ebe4e152201272220ad83aad1dc017c DependenciesID=c9d502b241ba34077f15987085459d46 StaticDependenciesID=316554429ee693d462717ca3e28b006e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.9 MB.
+Total: 12.019600 ms (FindLiveObjects: 0.838800 ms CreateObjectMapping: 0.253100 ms MarkObjects: 8.667100 ms  DeleteObjects: 1.978100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:00:10.4253752Z
+  Time since last request: 37.734829 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'd5111df7009f1b85a29302a13033e8a5') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b24d3e80c33dfa2ccee885b1c1a16658 DependenciesID=3ab21d1b81b8589f642db20d3c81f4f7 StaticDependenciesID=02c9e783da7c0ef927550b47042779b1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:00:13.6169221Z
+  Time since last request: 3.1753498 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'bc3151bfb8995746cd98cb7cd787dc97') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14c808b0a49ea73c7b3fb1151f3245c0 DependenciesID=22dc137156d413824ece39cede8b2426 StaticDependenciesID=7ef7c2cfbeb7d63b6b7a5029737e3aa5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.68 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.1 MB.
+Total: 13.075800 ms (FindLiveObjects: 1.014500 ms CreateObjectMapping: 0.537200 ms MarkObjects: 9.354100 ms  DeleteObjects: 1.887100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:02:03.4873769Z
+  Time since last request: 109.8513545 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '4dd221b6ddca468277922b74e85c4256') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc5ea38bdedf4e3919d4e5dfc692a515 DependenciesID=ed3d3eb04422ca0396e1382c118bc11b StaticDependenciesID=c196275f296d73c4786be3e3b0f2693c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.9 MB.
+Total: 18.262600 ms (FindLiveObjects: 0.809400 ms CreateObjectMapping: 0.254300 ms MarkObjects: 13.965700 ms  DeleteObjects: 2.863800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:06:49.726646Z
+  Time since last request: 286.22304450000001 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '6286afc0dc7db9ee6cc1ab2ece63f3b7') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2ec55ef6519d7fb44e99880040680ac DependenciesID=d886955a50ec48ff36c5d1a6a8b2c252 StaticDependenciesID=ac1f2d9a0d1e394f73d0896f01e89186 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:06:54.8770661Z
+  Time since last request: 5.130735 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '4a1a762bfbb265f9417fe2b2f80ddcec') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=780f70ff024cb02181b2389ad342cf89 DependenciesID=caae68823db291939ac7245aad515a54 StaticDependenciesID=371fb8f530264bde630717c1caf8cd86 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:00.3611211Z
+  Time since last request: 5.4540117 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'c99f186bbdb0e349949108439f6e6cff') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d99778fbbe06927095171c2bb401c9d7 DependenciesID=4bb7e2afb98a79d58a2f92ae25945f0d StaticDependenciesID=8b827bb00799dc027d1144ecde3bbb28 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:06.7799115Z
+  Time since last request: 6.4052802 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '551a5ee14a8cb9c48f939e3a684af100') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44e49d6fa8281afd1da44181d7ae53dc DependenciesID=66f6e6ad6229db3afb9b9b417f574f19 StaticDependenciesID=5b6f6d723f8130ccca32e126903dc934 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:09.5340053Z
+  Time since last request: 2.7409723 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '76d4fadd01ae820b15f537b5832755ff') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=878f51f5eaf2531f68973da5390168f3 DependenciesID=d17587a225add2dbaf5a8aee500cdd5e StaticDependenciesID=a7b521f6902a798cfe63e55ebcadae07 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:12.0942991Z
+  Time since last request: 2.5447428 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '902a75adaa3bcac9c68e12d4a803f763') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d8e52db28fbbff22f8e783cefe06613 DependenciesID=dca81cad6ca4a5ee01592652e2be5276 StaticDependenciesID=d0c3d264969dee585c26788894dfa3e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:18.8741721Z
+  Time since last request: 6.7644984 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'daeabd1ce3b8ed1471665a06b1a71b47') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05065e071dd4ba4acd7208b0f3f859f8 DependenciesID=bc5983dc85553ed974765ca63c0399e4 StaticDependenciesID=e36f737ffc081455187010be0cafa5ba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:21.7495294Z
+  Time since last request: 2.8602692 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'b8d53af9c481343933f1ed3439ec9011') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f226f3cf3399ca2d83d447f0ddaa549f DependenciesID=a2205c617ad1b905b8b1d231e7b04e2a StaticDependenciesID=1d5d02d90b901c1ba4822b3e6a7fbd8d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:24.9613363Z
+  Time since last request: 3.1985598 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '0df9dea6a10cfb39995a12e8f064f82d') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e216d1a51000c48adf02d4edffc1cab0 DependenciesID=a465b0d3f4e7da0b24e4943e22ddf385 StaticDependenciesID=864f48af0677e5739b9f24016be22d8b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:33.0074159Z
+  Time since last request: 8.029722 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '944af7ee31bab4ef669c660d940f2357') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a79978a83aa5a5d7a40faa0cb94ac372 DependenciesID=2aca8d95526459c4178332833ce5521a StaticDependenciesID=5b503010a14b13238ae100aec75b112e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:38.5833215Z
+  Time since last request: 5.5515821 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.004 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:36.4945612Z' while content on disk has modification time of '2026-11-09T20:07:38.5870649Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:36.4945612Z' while content on disk has modification time of '2026-11-09T20:07:38.5870649Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:39.6403373Z
+  Time since last request: 1.040871 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '7a93790955f255bdc71a286ad0251b0f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e3508dc97b118be3f321e9710863a1c2 DependenciesID=4ae80a4324c945559aad009d391523c8 StaticDependenciesID=d5c69f813d68ff30266e797b285a766f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:45.6055781Z
+  Time since last request: 5.9253973 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:44.2674125Z' while content on disk has modification time of '2026-11-09T20:07:45.6083451Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:44.2674125Z' while content on disk has modification time of '2026-11-09T20:07:45.6083451Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:47.0853837Z
+  Time since last request: 1.4655457 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.004 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:45.6083451Z' while content on disk has modification time of '2026-11-09T20:07:47.0895774Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:45.6083451Z' while content on disk has modification time of '2026-11-09T20:07:47.0895774Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:48.1437727Z
+  Time since last request: 1.0419351 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '33edb488545449a3ed1efbae1c7977af') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a6706d63ba4d00ddf0c43a98143a4513 DependenciesID=93a4da545faa7d8ae1f77e8d6f843f9f StaticDependenciesID=eecb6bf379a19d376bd4c498581b8fd1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:53.7664777Z
+  Time since last request: 5.6008576 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:52.4670255Z' while content on disk has modification time of '2026-11-09T20:07:53.7706396Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:52.4670255Z' while content on disk has modification time of '2026-11-09T20:07:53.7706396Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:55.1407976Z
+  Time since last request: 1.3572117 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:53.7706396Z' while content on disk has modification time of '2026-11-09T20:07:55.1439228Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:07:53.7706396Z' while content on disk has modification time of '2026-11-09T20:07:55.1439228Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:07:56.1938758Z
+  Time since last request: 1.0372195 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'd800295dc262dcce6f2c4a6688bbab6f') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=afa85350fcc2460c401cfa6f1938f8b7 DependenciesID=91eb536a9fb1b71788b3f2ffc8985a1c StaticDependenciesID=e0d94b703afef655d27d8423324ea2e6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:01.5198713Z
+  Time since last request: 5.310774 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:08:00.0876531Z' while content on disk has modification time of '2026-11-09T20:08:01.5260082Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:08:00.0876531Z' while content on disk has modification time of '2026-11-09T20:08:01.5260082Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:02.898297Z
+  Time since last request: 1.3635584 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '00000000000000000000000000000000') in 0.003 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:08:01.5260082Z' while content on disk has modification time of '2026-11-09T20:08:02.9013655Z'
+  ERROR: Build asset version error: assets/prefabs/dado/dado.prefab in SourceAssetDB has modification time of '2026-11-09T20:08:01.5260082Z' while content on disk has modification time of '2026-11-09T20:08:02.9013655Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:03.9526811Z
+  Time since last request: 1.0393241 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'c02c26eff248bb6826cce61dc6445e09') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0dbc60563cfaae19b7c651f219ac0582 DependenciesID=8bf37b481c1652b9c5ea389af5a8092d StaticDependenciesID=d1a68e768aa28082613a16d08bfa82fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:15.5592651Z
+  Time since last request: 11.5910434 seconds.
+  importAddress: GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a80c60a3fc10f4245a1e984e49fd38fd' -> (Import Result ID: 'feccdae2df2808741dfee15e62d560fe') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17671666288aab308b8b6cf3f580bc0a DependenciesID=03985c01f569299fb5bc14edf89307e0 StaticDependenciesID=885b8cc92ca12521a7c9c14d595932b1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.14 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.2 MB to 376.1 MB.
+Total: 13.436500 ms (FindLiveObjects: 0.761800 ms CreateObjectMapping: 0.258300 ms MarkObjects: 10.251900 ms  DeleteObjects: 1.873700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:27.0395218Z
+  Time since last request: 11.4610554 seconds.
+  importAddress: GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9' -> (Import Result ID: '23c3ffcb4381fdb6226ad241d453f98c') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=016f303a2a4f511b64a8b9bd123ee787 DependenciesID=5b5785629e1fd38e64635e05fffa71be StaticDependenciesID=077adf2c2ce6a32b3b22021c84e977fd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:31.9717162Z
+  Time since last request: 4.9153164 seconds.
+  importAddress: GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9 - Path: Assets/Prefabs/dado/Plane (1).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1ffe6bbdc6bff0741bb213449358e9a9' -> (Import Result ID: '9fadc13b327b66575b036520c3f448df') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd7bfe2afde8d962b0fe5e5fc540db65 DependenciesID=a903f0963ad5b6ea69d7c5b7c7870e0a StaticDependenciesID=7d69de1d44c6d7885a033f0fd81e0f9f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.2 MB to 376.2 MB.
+Total: 11.163600 ms (FindLiveObjects: 0.795800 ms CreateObjectMapping: 0.236000 ms MarkObjects: 8.112700 ms  DeleteObjects: 1.732900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:39.7469282Z
+  Time since last request: 7.7570984 seconds.
+  importAddress: GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 492d7ba195a834446bbf90a28e2ebfa7' -> (Import Result ID: 'a67168142e6e4965dfc6ee0a50676c1f') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ac7d415dba48c53ebc4839d51df2a15 DependenciesID=90612cbee194b9bee4770347b54fa7d7 StaticDependenciesID=f56488eac726fecbaa753ff2e4864b1f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.8 MB.
+Total: 12.579200 ms (FindLiveObjects: 0.878200 ms CreateObjectMapping: 0.354900 ms MarkObjects: 9.232900 ms  DeleteObjects: 1.850300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:47.6824748Z
+  Time since last request: 7.9142475 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'c3e562fffb50a866f8e5dacf00369273') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d60a27aca46a915334e4af8925a1beef DependenciesID=5fc5fc5a4ee773a8b85a83915c93440f StaticDependenciesID=f7a56ce9bb78cadb149c63138a13c8af 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.8 MB.
+Total: 11.463900 ms (FindLiveObjects: 1.054200 ms CreateObjectMapping: 0.350700 ms MarkObjects: 8.052900 ms  DeleteObjects: 1.716100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:54.5994735Z
+  Time since last request: 6.8987713 seconds.
+  importAddress: GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 38bbc8a93e65ff643839ec40725803ec' -> (Import Result ID: '801252e094c515368cf8823c6999f4af') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2aaafcbd857ff52f8189ed812e431be8 DependenciesID=7225b761d4213226e1a00712cc1b3ed6 StaticDependenciesID=0d1c11a8e9334a83c302fbb1b80fa0c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:57.4274382Z
+  Time since last request: 2.8103524 seconds.
+  importAddress: GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 38bbc8a93e65ff643839ec40725803ec' -> (Import Result ID: '6b82f436c767cbf436b5aca05f3ebbc6') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff1b2966227df407e07736c2c7a33748 DependenciesID=4c2ccae4ba786a45ed1ee840b97fd3bc StaticDependenciesID=9ea15911d0370a10b40e885efeee89e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.1 MB to 376.1 MB.
+Total: 12.606100 ms (FindLiveObjects: 0.906700 ms CreateObjectMapping: 0.244600 ms MarkObjects: 9.002100 ms  DeleteObjects: 2.136000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:09:02.3978715Z
+  Time since last request: 4.9555419 seconds.
+  importAddress: GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b249a34a372a73b438f909085f76683f' -> (Import Result ID: '60fbb9147b7ac9d0f51610a30101e797') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de5af0aa31acfbcce911a0ee6c7170f7 DependenciesID=940f390128947c7b0d34a17bd36cc2cc StaticDependenciesID=a7cb761fe796801d70d14ef30c224778 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:09:07.6786611Z
+  Time since last request: 5.2619275 seconds.
+  importAddress: GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b249a34a372a73b438f909085f76683f' -> (Import Result ID: 'b7caa3647e0754c5a82206adf190c49d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=402c5573e58740d31f77176fce6cb753 DependenciesID=14a418e809c7383df7b2a4228cbce731 StaticDependenciesID=bb56347e82bf46f00c4f779ee5fe2cca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:09:42.7344213Z
+  Time since last request: 35.0311459 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '3c8933cea303f4fc151bc13a0c85965e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab4c9698ee9318e5b71f82f5238ca9fa DependenciesID=c5a157cca98fefca97bcfb01b713e699 StaticDependenciesID=b456e1a21796f40a820b07d7d8935984 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:12:33.7269054Z
+  Time since last request: 170.9720174 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'e52c827ec458fcd96c0d303ffd24c40f') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=b61c240d10a5627327f72c7e4c43dbec StaticDependenciesID=f12ab14fbd956c28fe78064c3286e4cd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.2 MB to 376.2 MB.
+Total: 14.434000 ms (FindLiveObjects: 0.838700 ms CreateObjectMapping: 0.251400 ms MarkObjects: 11.115700 ms  DeleteObjects: 1.895200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:12:41.0776038Z
+  Time since last request: 7.3284202 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '068fdec97ac3f6f5ce7e388583d6e53e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c707534d387471912b017d39cdf2d30 DependenciesID=5fb16f246af846e3eb028e9bc419eb54 StaticDependenciesID=ac114c35af6af58ff0c54c461496a738 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:18:12.2053701Z
+  Time since last request: 331.10907739999999 seconds.
+  importAddress: GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: PreviewImporter
+Importing 'GUID: 38bbc8a93e65ff643839ec40725803ec - Path: Assets/Prefabs/dado/Plane (4).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 38bbc8a93e65ff643839ec40725803ec' -> (Import Result ID: '779eadf0f4b7087f1769f7a35aa1a710') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc69d82caea29d6b293d4215a90bc189 DependenciesID=65f40ff28c53e493c6e7054b441117bb StaticDependenciesID=1ac2d63a8564e45b52e091d9d189d0d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:18:13.6545205Z
+  Time since last request: 1.4255335 seconds.
+  importAddress: GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: PreviewImporter
+Importing 'GUID: 492d7ba195a834446bbf90a28e2ebfa7 - Path: Assets/Prefabs/dado/Plane (2).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 492d7ba195a834446bbf90a28e2ebfa7' -> (Import Result ID: '7845a293b654e7af49bcf4fd3ad5433a') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5aeaf7f3d063033455a6d32ce9eb4901 DependenciesID=a06b18002f91df42052e4cd1e91600c6 StaticDependenciesID=3b6d927fe65a3aed123f917cbb9430b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:18:15.0471977Z
+  Time since last request: 1.3761349 seconds.
+  importAddress: GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: PreviewImporter
+Importing 'GUID: b249a34a372a73b438f909085f76683f - Path: Assets/Prefabs/dado/Plane (5).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b249a34a372a73b438f909085f76683f' -> (Import Result ID: 'bac73ebb283d5f23eaaf79805f121600') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18564ae076c88e154f1299da4db4e983 DependenciesID=f8dfe8e808b7e1199b75abeec2ff1f12 StaticDependenciesID=30fe02ea52cfe7eb29330488907e5d1c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:18:16.0902257Z
+  Time since last request: 1.0267493 seconds.
+  importAddress: GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: PreviewImporter
+Importing 'GUID: a80c60a3fc10f4245a1e984e49fd38fd - Path: Assets/Prefabs/dado/Plane (6).prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a80c60a3fc10f4245a1e984e49fd38fd' -> (Import Result ID: '5b68d9cc19c906cca20086cbdaac06b2') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e79e6b179ceea723749607cd4286e539 DependenciesID=fc3cf16693c1597026e93ee915cf40d5 StaticDependenciesID=b176d326d23f2e142e30c29e0e91d789 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.20 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.2 MB to 376.3 MB.
+Total: 16.624700 ms (FindLiveObjects: 1.063700 ms CreateObjectMapping: 0.284600 ms MarkObjects: 12.773500 ms  DeleteObjects: 2.108200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.8 MB to 376.9 MB.
+Total: 16.761600 ms (FindLiveObjects: 0.909100 ms CreateObjectMapping: 0.350800 ms MarkObjects: 12.993900 ms  DeleteObjects: 2.152000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:50:57.9397496Z
+  Time since last request: 1961.83330930000011 seconds.
+  importAddress: GUID: 548d08d5d9667b7489041d3f7dcbbdf0 - Path: Assets/Prefabs/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: 548d08d5d9667b7489041d3f7dcbbdf0 - Path: Assets/Prefabs/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 548d08d5d9667b7489041d3f7dcbbdf0' -> (Import Result ID: '74ea65eeb403c54c94440eee41a8735e') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5931929bf9eed63d57e406a7c7c6b7c4 DependenciesID=dcb4877bfcdc3cde5e8cb7d7a7379c50 StaticDependenciesID=bb9d634d3f47cd5663a1de60f4ce01e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:50:58.7075141Z
+  Time since last request: 0.7430018 seconds.
+  importAddress: GUID: 548d08d5d9667b7489041d3f7dcbbdf0 - Path: Assets/Prefabs/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 548d08d5d9667b7489041d3f7dcbbdf0 - Path: Assets/Prefabs/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 548d08d5d9667b7489041d3f7dcbbdf0' -> (Import Result ID: 'd60887f1d83fb278c5e339ba7879f210') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16cbfe16e0b5bcd2ec74f2e1ee81540d DependenciesID=f56d10e4aabb14eae557c00ab879b479 StaticDependenciesID=b3cad8f9a68b913673d35b239e847255 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.2 MB to 376.2 MB.
+Total: 14.579300 ms (FindLiveObjects: 0.830400 ms CreateObjectMapping: 0.225800 ms MarkObjects: 10.688100 ms  DeleteObjects: 2.472900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:55:14.8530895Z
+  Time since last request: 256.12976049999997 seconds.
+  importAddress: GUID: 7fac31b474df3b54e8cf456988a9364e - Path: Assets/Materials/blue_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7fac31b474df3b54e8cf456988a9364e - Path: Assets/Materials/blue_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7fac31b474df3b54e8cf456988a9364e' -> (Import Result ID: '037aee71bb03cb829735b6a8867b9ce9') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ac7b8db92b07bf86aa24f1f74060172 DependenciesID=0e0a869ed7f349933a84b49d4b92faed StaticDependenciesID=5024a15b12b4d791c87e1cd1bff8b453 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:55:24.7039587Z
+  Time since last request: 9.8279002 seconds.
+  importAddress: GUID: 9a8269098574c3d4792ae60549c17c1c - Path: Assets/Materials/red_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9a8269098574c3d4792ae60549c17c1c - Path: Assets/Materials/red_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9a8269098574c3d4792ae60549c17c1c' -> (Import Result ID: 'f86a938e32716627999f6707ec927ec8') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a6bb965a13cdfac6df4a02d2597de9e DependenciesID=5f9f68420ec15f150bcaeffb4454e8e3 StaticDependenciesID=9a17ac8c50e6a318e22781647d37f045 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:55:39.1540831Z
+  Time since last request: 14.4299017 seconds.
+  importAddress: GUID: a7a5a2c3369b1384182ce3a57de2fbed - Path: Assets/Materials/yellow_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a7a5a2c3369b1384182ce3a57de2fbed - Path: Assets/Materials/yellow_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a7a5a2c3369b1384182ce3a57de2fbed' -> (Import Result ID: '3af1e54fe9593835cb6e22dd95e13ad4') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52278c1fba3a45cc79078528ebd7e40d DependenciesID=ad04e222b292f25329e6a3404e244dfc StaticDependenciesID=382377341ba08097aac9011f497ce2a9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:00:38.1621623Z
+  Time since last request: 298.99198410000002 seconds.
+  importAddress: GUID: 133324299832e1c4f865cb930a8e2339 - Path: Assets/Materials/Dado.physicMaterial - Importer: PreviewImporter
+Importing 'GUID: 133324299832e1c4f865cb930a8e2339 - Path: Assets/Materials/Dado.physicMaterial - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 133324299832e1c4f865cb930a8e2339' -> (Import Result ID: '028442dadbfe322daf025f61d7a02ee9') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4579b424f7baf097a376b25a5e78e31a DependenciesID=3982b91bf4fb86bb8491045be89affc1 StaticDependenciesID=36e9b6c394f309f83d72b93967bcb910 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:00:39.149451Z
+  Time since last request: 0.9755831 seconds.
+  importAddress: GUID: 133324299832e1c4f865cb930a8e2339 - Path: Assets/Materials/Dado.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 133324299832e1c4f865cb930a8e2339 - Path: Assets/Materials/Dado.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 133324299832e1c4f865cb930a8e2339' -> (Import Result ID: '0efdd5ac622e55dca8b8cba2c1506290') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5422f898c779747ea457de23f0089961 DependenciesID=ae3caa50eb012c88befcfff1c7be225b StaticDependenciesID=578bb39ac9f3f67c78716353eec6b1c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7364.
+Memory consumption went from 382.3 MB to 376.4 MB.
+Total: 13.518500 ms (FindLiveObjects: 0.909800 ms CreateObjectMapping: 0.238500 ms MarkObjects: 10.183200 ms  DeleteObjects: 1.901500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:09:13.4699668Z
+  Time since last request: 514.30616310000005 seconds.
+  importAddress: GUID: b7be8cb1730eebc43ae038278bec25c4 - Path: Assets/Textures/textura_dado.webp - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7be8cb1730eebc43ae038278bec25c4 - Path: Assets/Textures/textura_dado.webp - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7be8cb1730eebc43ae038278bec25c4' -> (Import Result ID: '405612e14eaadd453488f0b781229bef') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08f82b31b937510875bee4f0f27c2389 DependenciesID=4aac926293919691e9bd3d4d22214554 StaticDependenciesID=a6beb200b9a788d80c10646cda0b7f3a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:09:14.0323867Z
+  Time since last request: 0.5479366 seconds.
+  importAddress: GUID: b7be8cb1730eebc43ae038278bec25c4 - Path: Assets/Textures/textura_dado.webp - Importer: PreviewImporter
+Importing 'GUID: b7be8cb1730eebc43ae038278bec25c4 - Path: Assets/Textures/textura_dado.webp - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b7be8cb1730eebc43ae038278bec25c4' -> (Import Result ID: 'fe059b228d49a0cd37e008172304938b') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c77c8fe064e69a280f2ba5ffc4c3574 DependenciesID=4306d6613cfae971f353fdb92a45a8cb StaticDependenciesID=9b507f930e819520c4c5883c328293e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:12:12.4320643Z
+  Time since last request: 178.38715260000001 seconds.
+  importAddress: GUID: 95c2e5641d1b5f64188f756310e83905 - Path: Assets/Textures/textura_marmol.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 95c2e5641d1b5f64188f756310e83905 - Path: Assets/Textures/textura_marmol.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 95c2e5641d1b5f64188f756310e83905' -> (Import Result ID: 'aaedfacc3be6899006157204b83045df') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a68efbb5ada873f4ab95bfc74f8c7c6 DependenciesID=bda446912f8f84225518dc112e88c64c StaticDependenciesID=9d177e2be4778e23a5ab4bc1ea290002 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:12:13.2471938Z
+  Time since last request: 0.7662892 seconds.
+  importAddress: GUID: 95c2e5641d1b5f64188f756310e83905 - Path: Assets/Textures/textura_marmol.jpg - Importer: PreviewImporter
+Importing 'GUID: 95c2e5641d1b5f64188f756310e83905 - Path: Assets/Textures/textura_marmol.jpg - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 95c2e5641d1b5f64188f756310e83905' -> (Import Result ID: 'd7f6e5c35c80244dce23d8e4182e4cf9') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=618c681ab835a2a14e47963ec3ba90a7 DependenciesID=c192600d639a49e005ba9323284068f7 StaticDependenciesID=93dd264c3eed0a3814e87ea7f3a88be6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7366.
+Memory consumption went from 382.5 MB to 376.5 MB.
+Total: 14.850700 ms (FindLiveObjects: 0.946700 ms CreateObjectMapping: 0.387600 ms MarkObjects: 10.871000 ms  DeleteObjects: 2.314500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.7607995Z
+  Time since last request: 164.48908420000001 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '73d74619e9c7b89e1adb0bf11aeda184') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=acbf2fafbed15b442051bc0588e15d65 DependenciesID=ff490411927e05e4e7f73f5cae89e130 StaticDependenciesID=dca3b7b06ffbb2badfaf5d97360248bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.7881727Z
+  Time since last request: 0.0084425 seconds.
+  importAddress: GUID: a7a5a2c3369b1384182ce3a57de2fbed - Path: Assets/Materials/yellow_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a7a5a2c3369b1384182ce3a57de2fbed - Path: Assets/Materials/yellow_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a7a5a2c3369b1384182ce3a57de2fbed' -> (Import Result ID: '9ca905d4f527515b99d394addbc70211') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57825680e7d60c38f406f0dc6eec44bb DependenciesID=fec7001e53e97151cc9c2e0452a225d7 StaticDependenciesID=61036365cea0724d6609d3700569298c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.8108343Z
+  Time since last request: 0.0003479 seconds.
+  importAddress: GUID: 133324299832e1c4f865cb930a8e2339 - Path: Assets/Materials/Dado.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 133324299832e1c4f865cb930a8e2339 - Path: Assets/Materials/Dado.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 133324299832e1c4f865cb930a8e2339' -> (Import Result ID: 'dac49efc639752a5278b82c2d01e5012') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06d153234ed5c8b1745edff231cefb24 DependenciesID=d0a3c89e3cf863071be16b36023903db StaticDependenciesID=419b9d075e88f1dd6fcbcd6d87a03b4b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.8281966Z
+  Time since last request: 0.0005203 seconds.
+  importAddress: GUID: 3d8d699731d8cc648a718fc02a35c65a - Path: Assets/Materials/table_wood_blue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3d8d699731d8cc648a718fc02a35c65a - Path: Assets/Materials/table_wood_blue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3d8d699731d8cc648a718fc02a35c65a' -> (Import Result ID: '07f869cd7c8954307b329090ee743ead') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7d70c53326823ab9d439cc8a82e2c21 DependenciesID=4a8612a701d9b5abe28c574a81da74ba StaticDependenciesID=ac8f4c8e04293476bc59b78ad53989b0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.8477885Z
+  Time since last request: 0.0003752 seconds.
+  importAddress: GUID: 7fac31b474df3b54e8cf456988a9364e - Path: Assets/Materials/blue_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7fac31b474df3b54e8cf456988a9364e - Path: Assets/Materials/blue_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7fac31b474df3b54e8cf456988a9364e' -> (Import Result ID: '4a25c8b3b7a819a471ea1edba2bc2101') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c16f664b074efdca51cbe61871019e1b DependenciesID=c3ff487ca822e394066bfdf25a57e7fa StaticDependenciesID=3434eb393b9986f5b6627afb87815be7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

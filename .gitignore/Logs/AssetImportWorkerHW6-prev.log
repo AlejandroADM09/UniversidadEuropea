@@ -1,0 +1,663 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.6f1 (d20c9ac777da) revision 13765786'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26" at "2026-11-09T19:25:28.2086743Z"
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-09T19:25:28Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW6
+-projectPath
+C:/Users/amc26/Jenga
+-logFile
+Logs/AssetImportWorkerHW6.log
+-srvPort
+61346
+-parentPid
+35344
+-analyticsCloudUserId
+6872852281530
+-analyticsCloudProjectId
+8ef8dc00-0e5a-4148-9fe5-300035b8db2c
+-analyticsLocalProjectId
+8651b1c30b0a765438022736a339a570
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+7b11fd68d7eb0e6de8a68beb9d2638c55741abfe
+-cbmMachineId
+ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+-licensingIpc
+LicenseClient-amc26
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/amc26/Jenga
+C:/Users/amc26/Jenga
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [7176]  Target information:
+
+Player connection [7176]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1278805562 [EditorId] 1278805562 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7176]  * "[IP] 172.29.112.1 [Port] 0 [Flags] 2 [Guid] 1278805562 [EditorId] 1278805562 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7176]  * "[IP] 192.168.0.37 [Port] 0 [Flags] 2 [Guid] 1278805562 [EditorId] 1278805562 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-15L268V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [7176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7176] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27996, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              8b2374632e59460d8ecf1dcb0eaad277
+  Correlation Id:          7e08e1c33d91199d788b6e611b07070c
+  External correlation Id: 365252511891832214
+  Machine Id:              ugTy7i/6n6VUS3iRA1Mu3sTsZAs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-amc26" (connect: 0.00s, validation: 0.00s, handshake: 0.14s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-amc26-notifications" at "2026-11-09T19:25:28.3463358Z"
+[Licensing::Module] Licensing Background thread has ended after 0.14s
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: b7ee7cbef98002eece8141ec555bb866
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 362.77 ms, found 4 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.6f1 (d20c9ac777da)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amc26/Jenga/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:          NVIDIA
+    VRAM:            8006 MB
+    App VRAM Budget: 7238 MB
+    Driver:          32.0.15.6603
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.307928 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.638 seconds
+Domain Reload Profiling: 4552ms
+	BeginReloadAssembly (352ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (253ms)
+	initialDomainReloadingComplete (564ms)
+	LoadAllAssembliesAndSetupDomain (1738ms)
+		LoadAssemblies (347ms)
+		TypeCache.Refresh (1618ms)
+			TypeCache.ScanAssembly (1301ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1639ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (1261ms)
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 6872852281530-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+TypeManager.Initialize took: 138ms
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.540 seconds
+Domain Reload Profiling: 4504ms
+	BeginReloadAssembly (270ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (2582ms)
+		LoadAssemblies (2183ms)
+		TypeCache.Refresh (226ms)
+			TypeCache.ScanAssembly (193ms)
+		AnalyzeDomain (80ms)
+			BuildScriptInfoCaches (74ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1541ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (613ms)
+			ProcessInitializeOnLoadMethodAttributes (330ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6386 unused Assets / (11.8 MB). Loaded Objects now: 7238.
+Memory consumption went from 370.4 MB to 358.7 MB.
+Total: 20.222200 ms (FindLiveObjects: 1.519000 ms CreateObjectMapping: 0.954500 ms MarkObjects: 12.421000 ms  DeleteObjects: 5.040600 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7238.
+Memory consumption went from 362.6 MB to 356.7 MB.
+Total: 10.885200 ms (FindLiveObjects: 1.039700 ms CreateObjectMapping: 0.410200 ms MarkObjects: 7.516600 ms  DeleteObjects: 1.618900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T19:27:46.4536926Z
+  Time since last request: 4274320.44499980006367 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '2ed10450b22df62539b60f7f23e88a14') in 0.490 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=6fac6f1e74689ae93fdfc915bd128db2 StaticDependenciesID=b406fb86d7477c20b6ba72ffd024995f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 380.1 MB to 374.2 MB.
+Total: 15.958200 ms (FindLiveObjects: 0.856300 ms CreateObjectMapping: 0.225200 ms MarkObjects: 12.843100 ms  DeleteObjects: 1.715200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 380.7 MB to 374.7 MB.
+Total: 11.995800 ms (FindLiveObjects: 0.769900 ms CreateObjectMapping: 0.198700 ms MarkObjects: 8.593100 ms  DeleteObjects: 2.137700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 381.4 MB to 375.5 MB.
+Total: 12.531700 ms (FindLiveObjects: 0.918200 ms CreateObjectMapping: 0.500700 ms MarkObjects: 9.177300 ms  DeleteObjects: 1.667500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.1 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.1 MB to 376.0 MB.
+Total: 12.538000 ms (FindLiveObjects: 0.838400 ms CreateObjectMapping: 0.205800 ms MarkObjects: 8.780300 ms  DeleteObjects: 2.422500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.51 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.7 MB to 376.8 MB.
+Total: 11.301600 ms (FindLiveObjects: 0.776700 ms CreateObjectMapping: 0.314700 ms MarkObjects: 8.290300 ms  DeleteObjects: 1.634600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.19 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 383.4 MB to 377.5 MB.
+Total: 12.211200 ms (FindLiveObjects: 0.891800 ms CreateObjectMapping: 0.672800 ms MarkObjects: 8.649000 ms  DeleteObjects: 1.695100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 384.1 MB to 378.2 MB.
+Total: 12.461700 ms (FindLiveObjects: 0.797300 ms CreateObjectMapping: 0.203500 ms MarkObjects: 9.463000 ms  DeleteObjects: 1.736600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 384.8 MB to 378.9 MB.
+Total: 13.600200 ms (FindLiveObjects: 0.897300 ms CreateObjectMapping: 0.317100 ms MarkObjects: 10.284500 ms  DeleteObjects: 1.829800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 385.6 MB to 379.5 MB.
+Total: 15.354100 ms (FindLiveObjects: 0.841100 ms CreateObjectMapping: 0.246300 ms MarkObjects: 11.622400 ms  DeleteObjects: 2.241000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 386.2 MB to 380.2 MB.
+Total: 11.404300 ms (FindLiveObjects: 0.822400 ms CreateObjectMapping: 0.219400 ms MarkObjects: 8.405200 ms  DeleteObjects: 1.672200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 386.9 MB to 381.0 MB.
+Total: 10.357900 ms (FindLiveObjects: 0.744800 ms CreateObjectMapping: 0.197400 ms MarkObjects: 7.496100 ms  DeleteObjects: 1.667900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 387.6 MB to 381.6 MB.
+Total: 11.803300 ms (FindLiveObjects: 0.796300 ms CreateObjectMapping: 0.192900 ms MarkObjects: 8.822500 ms  DeleteObjects: 1.733200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 388.2 MB to 382.2 MB.
+Total: 13.242200 ms (FindLiveObjects: 0.919000 ms CreateObjectMapping: 0.559000 ms MarkObjects: 9.503300 ms  DeleteObjects: 1.918100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 388.9 MB to 382.9 MB.
+Total: 16.980200 ms (FindLiveObjects: 0.781100 ms CreateObjectMapping: 0.220600 ms MarkObjects: 13.165200 ms  DeleteObjects: 2.477400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 389.6 MB to 383.6 MB.
+Total: 13.229000 ms (FindLiveObjects: 0.775200 ms CreateObjectMapping: 0.224200 ms MarkObjects: 10.130600 ms  DeleteObjects: 1.817400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:27.0395707Z
+  Time since last request: 2440.07959600000004 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'a2d2e3a4d453a08015c6ee0abcebac1f') in 0.104 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=222d133f959a9e393ce8477b7eb0e052 DependenciesID=c0d92b3dbea55dcc7e0cb57db13d9218 StaticDependenciesID=dc255873bcf7ae3ba6a9fc2fa39d38b2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:31.9717423Z
+  Time since last request: 4.8168639 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'b31a69792c038d1ae410e216bc038ab9') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba8adbeac22e9670ef0e66c3991db298 DependenciesID=836fcd174e9e8b507399a607a8ce23e6 StaticDependenciesID=b672eda6bdae9a3042c3ed33e6ea2cac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.1 MB to 376.1 MB.
+Total: 10.968000 ms (FindLiveObjects: 0.868600 ms CreateObjectMapping: 0.253500 ms MarkObjects: 7.689000 ms  DeleteObjects: 1.852000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:39.7469564Z
+  Time since last request: 7.7540034 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '3e9a99ecae4f3ae03d51f12aabb2c9e4') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=970c2f9786e9f428955276588cbaccd0 DependenciesID=bf1d7babbb9dcec192f5557ae72a5984 StaticDependenciesID=fa84ffdcc2fca5df969166815173fa1c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.46 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.7 MB to 376.8 MB.
+Total: 12.979400 ms (FindLiveObjects: 0.941900 ms CreateObjectMapping: 0.403700 ms MarkObjects: 9.587900 ms  DeleteObjects: 1.754900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:47.6825225Z
+  Time since last request: 7.9155776 seconds.
+  importAddress: GUID: c5cb8fc7fddf9a84ea38c269264c65d4 - Path: Assets/Prefabs/dado/Plane (3).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c5cb8fc7fddf9a84ea38c269264c65d4 - Path: Assets/Prefabs/dado/Plane (3).prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c5cb8fc7fddf9a84ea38c269264c65d4' -> (Import Result ID: '24874e28344f63fab9e11c59acbfecd9') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e3f630dab57a5929edb34fd2ba8f148 DependenciesID=92bc86db17c6e50ca1c46bdc92d68b6f StaticDependenciesID=8929b64d86ce6e2b7ce0ba2fcd4aa84c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.9 MB to 376.9 MB.
+Total: 11.752400 ms (FindLiveObjects: 1.072000 ms CreateObjectMapping: 0.388800 ms MarkObjects: 8.236400 ms  DeleteObjects: 1.752600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:54.5995367Z
+  Time since last request: 6.8750841 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '1185560e3b4cdd288e6939e19ed4e656') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a4964cadc072f02b406ae4c974ab8a6 DependenciesID=83ee50a5a6c02f8c54476d9af1889a56 StaticDependenciesID=8d0e722abeb356ee5768115550988969 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:08:57.4274846Z
+  Time since last request: 2.8117358 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'fcf98af9c5ca07d9750362069ca92c2f') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6eb9de67fcad00505b544bab35f7670b DependenciesID=41e8bc3d1339a82c731858d4485c4987 StaticDependenciesID=441110aacd783506ca667d79ad41f61a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.2 MB to 376.2 MB.
+Total: 13.760200 ms (FindLiveObjects: 0.897700 ms CreateObjectMapping: 0.321700 ms MarkObjects: 10.083900 ms  DeleteObjects: 2.159600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:09:02.3979647Z
+  Time since last request: 4.9563969 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: 'd8084103abdb61bac3210755a186fe30') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4fb3d6a9738dc3a0dfc7bc8aa41de0b0 DependenciesID=3654d48024d9964d6911db926c7841d5 StaticDependenciesID=1b2abe3928d4196972cb9a9d0359c4c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (6.0 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.9 MB to 376.8 MB.
+Total: 14.803900 ms (FindLiveObjects: 0.793700 ms CreateObjectMapping: 0.210200 ms MarkObjects: 11.682600 ms  DeleteObjects: 1.827800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T20:12:40.3112175Z
+  Time since last request: 217.89755550000001 seconds.
+  importAddress: GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter
+Importing 'GUID: ac272c0a5afc2464e8deec7609a42bd6 - Path: Assets/Prefabs/dado/Dado.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac272c0a5afc2464e8deec7609a42bd6' -> (Import Result ID: '57892568d94ebda76d6ae7ef6b424465') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=888c1f0e0c3bf7b2b40c86774106bf0c DependenciesID=ff01a4d7e4d5f6851fce8a18afe378e5 StaticDependenciesID=ad8c8ee898bc7f47391d7f94d2f7b0ee 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 70
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.2 MB to 376.3 MB.
+Total: 16.194500 ms (FindLiveObjects: 0.939400 ms CreateObjectMapping: 0.340500 ms MarkObjects: 12.276400 ms  DeleteObjects: 2.231200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 382.9 MB to 377.0 MB.
+Total: 15.721100 ms (FindLiveObjects: 0.802200 ms CreateObjectMapping: 0.221300 ms MarkObjects: 12.646500 ms  DeleteObjects: 1.780800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 383.5 MB to 377.6 MB.
+Total: 11.408900 ms (FindLiveObjects: 0.857000 ms CreateObjectMapping: 0.311900 ms MarkObjects: 8.213900 ms  DeleteObjects: 1.760300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 384.2 MB to 378.4 MB.
+Total: 12.606600 ms (FindLiveObjects: 0.768000 ms CreateObjectMapping: 0.203800 ms MarkObjects: 9.621400 ms  DeleteObjects: 1.742500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+Unloading 62 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (5.9 MB). Loaded Objects now: 7363.
+Memory consumption went from 384.9 MB to 379.0 MB.
+Total: 13.206600 ms (FindLiveObjects: 0.830300 ms CreateObjectMapping: 0.232200 ms MarkObjects: 9.971600 ms  DeleteObjects: 1.873800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'AddPassShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_AddPass' not found
+Shader 'Hidden/Terrain/Terrain Standard 4 Layers URP': dependency 'BaseMapGenShader' shader 'Hidden/Hidden/Terrain/Terrain Standard 4 Layers URP_BaseMapGen' not found
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.7608377Z
+  Time since last request: 3737.41685599999983 seconds.
+  importAddress: GUID: 0acdd5014fadf2c40ae14500a925c59d - Path: Assets/Materials/table_wood_yellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0acdd5014fadf2c40ae14500a925c59d - Path: Assets/Materials/table_wood_yellow.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0acdd5014fadf2c40ae14500a925c59d' -> (Import Result ID: '5314620f990baef1cec40b0373c0ea1d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d590f3da2fcf6cb723330954bdfbe535 DependenciesID=c66599df89ed12b07034c99373b2065b StaticDependenciesID=e73f3a2e71900932f8a8cd8e7f51d19d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.7914235Z
+  Time since last request: 0.0002417 seconds.
+  importAddress: GUID: 029590fe2d11e7f49b8273d3fc1f2510 - Path: Assets/Materials/table_wood_red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 029590fe2d11e7f49b8273d3fc1f2510 - Path: Assets/Materials/table_wood_red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 029590fe2d11e7f49b8273d3fc1f2510' -> (Import Result ID: 'c7593d9f96344b122c48b747e40c2ca5') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdbc44b450b3eba99dedea258c5cd3bd DependenciesID=7137e50a10b7ff320a3d2224674d54be StaticDependenciesID=22bed36e1236049c784be67e3c455739 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.8121946Z
+  Time since last request: 0.0002752 seconds.
+  importAddress: GUID: 9a8269098574c3d4792ae60549c17c1c - Path: Assets/Materials/red_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9a8269098574c3d4792ae60549c17c1c - Path: Assets/Materials/red_mat_double.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9a8269098574c3d4792ae60549c17c1c' -> (Import Result ID: '883fdb205d5fdb8d82a8326e0e641649') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=88900799805a34ce9f756b3a60b4ed6e DependenciesID=c1b49f6ec1debc206a5c15ec295ab0cd StaticDependenciesID=76a91ce119e4704e05620cc6c20b1b07 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-09T21:14:57.8324156Z
+  Time since last request: 0.0003421 seconds.
+  importAddress: GUID: e163716de5e80c145847d1a894603ff8 - Path: Assets/Materials/Wood.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e163716de5e80c145847d1a894603ff8 - Path: Assets/Materials/Wood.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e163716de5e80c145847d1a894603ff8' -> (Import Result ID: '139ab6595c0760accc0803ef43ae2d4f') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23594aabb2fa3bfda3889c44c78ed765 DependenciesID=4bce7b9dcedd6b722a9ad6c00426f5cf StaticDependenciesID=40fbcfa0601d93055306da363087a1ec 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
